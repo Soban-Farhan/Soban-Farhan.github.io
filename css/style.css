@@ -148,6 +148,43 @@ input, textarea {
     color: #acacac;
 }
 
+.project-card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-overlay {
+    color: transparent;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: .5s;
+    height: 100%;
+}
+
+.project-overlay a button {
+    text-decoration: none;
+    color: transparent;
+    border: none;
+}
+
+.project-overlay:hover {
+    /* background-color: transparent; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.project-overlay:hover a button {
+    /* background-color: transparent; */
+    color: white;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+.project-overlay span i {
+    transition: 0s;
+}
+
 @media screen and (max-width: 990px) {
     .logo {
           padding: 0;

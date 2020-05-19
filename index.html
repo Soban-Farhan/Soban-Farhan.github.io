@@ -12,8 +12,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
@@ -78,7 +78,7 @@
                             <div class="row">
                                 <div class="col-sm-4 text-center">
                                     <p class="p-1"></p>
-                                    <img class="" src="./images/my-name-min.jpg" alt="Me" style="width: 80%; border-radius: 50%;">
+                                    <img src="./images/my-face-min.jpg" alt="Me" style="width: 80%; border-radius: 50%;">
                                     <p class="p-1"></p>
                                 </div>
                                 <div class="col-lg-8 text-left">
@@ -112,11 +112,10 @@
                                     </p>
                                 </div>
                                 <div class="col-lg p-2 text-center">
-                                    <a href="#About"><button id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> MY PROJECTS &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
+                                    <a href="#Projects"><button id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> MY PROJECTS &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
                                 </div>
                                 <div class="col-lg p-2 text-center">
-                                    <a target="_blank" href="./resume.pdf"><button id="moreBtn" style="border-color: #313131; width: 216.5px;" class="btn btn-lg bg-dark"><span class="p-3"> MY RESUME &nbsp;<i class="fas fa-angle-right"></i> </span></button></a>
-                                    
+                                    <a target="_blank" href="./resume.pdf"><button id="moreBtn" style="border-color: #313131; width: 216.5px;" class="btn btn-lg bg-dark"><span class="p-3"> MY RESUME &nbsp;<i class="fas fa-angle-right"></i> </span></button></a>  
                                 </div>
                                 <div class="col-lg p-2 text-center">
                                     <a href="#Contact"><button id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> CONTACT ME &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
@@ -124,13 +123,85 @@
                             </div>
                         </div>
                     </div>
+                    <span class="p-1"></span>
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body" style="color: black; font-weight: 550;">
+                            <h5 class="card-title m-0" style="font-size: 1.5rem;">MY PROJECTS</h5>
+                            <hr style="height: 1px; color: #fff; background-color: black; border: none; margin-top: 5px; margin-bottom: 1px;"/>
+                        </div>
+                    </div>
+                    <p class="p-2"></p>
                 </div>
             </div>
         </div>
-        <span class="p-1"></span>
+    </div>
+    <div class="container-fluid bg-light" id="Projects">
+        <div class="row">
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/weather-forecast.jpg);">
+                <div class="container-fluid project-overlay">
+                    <p class="p-4 m-0"></p>
+                    <div class="container-fluid" style="font-size: 12pt;">
+                        A personal web project which offers weather forecast for the given location. 
+                        The website is built using Python, HTML, JavaScript, jQuery, Django, and Bootstrap framework.
+                        <br/><br/>
+                        <b>Note:</b> This App is just a personal project, to learn and get better understand of Software Developement.
+                    </div>
+                    <br/><br/>
+                    <p class="p-2 m-0"></p>
+                    <div class="row">
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://github.com/Soban-Farhan/WeatherForecast" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Github&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://weather-forecast-canada.herokuapp.com/" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Website&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                            <p class="p-1 m-1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/marvel-comics.jpg);">
+                <div class="container-fluid project-overlay">
+                    <p class="p-4 m-0"></p>
+                    <!-- <span style="font-size: 30pt; font-family: 'Montserrat';"> FORECASTER </span> -->
+                    <div class="container-fluid" style="font-size: 12pt;">
+                        A personal web project which offers weather forecast for the given location. 
+                        The website is built using Python, HTML, JavaScript, jQuery, Django, and Bootstrap framework.
+                        <br/><br/>
+                        <b>Note:</b> This App is just a personal project, to learn and get better understand of Software Developement.
+                    </div>
+                    <br/><br/>
+                    <p class="p-2 m-0"></p>
+                    <div class="row">
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://github.com/Soban-Farhan/WeatherForecast" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Github&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://weather-forecast-canada.herokuapp.com/" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Website&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                            <p class="p-1 m-1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="Contact" class="container-fluid">
-        <p class="p-5"></p>
+        <p class="p-4"></p>
         <div class="container">
             <form action="#" action="POST"></form>
             <div class="card border-0" style="background-color: white;">
