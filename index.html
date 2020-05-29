@@ -269,6 +269,9 @@
 
         $(document).ready(function() {
             
+            $.get("https://weather-forecast-canada.herokuapp.com/ping/");
+            $.get("https://super-hero-api.herokuapp.com/");
+
             function resize() {
                 if(window.innerWidth <= 990 ) {
                     $('#rotateText').text('')
