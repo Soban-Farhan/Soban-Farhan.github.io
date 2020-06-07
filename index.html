@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/SuperHeroAPI.png);">
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/SuperHeroAPI.jpg);">
                 <div class="container-fluid project-overlay">
                     <p class="p-4 m-0"></p>
                     <div class="container-fluid" style="font-size: 12pt;">
@@ -199,7 +199,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/KingWilliamHotel.png);">
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/KingWilliamHotel.jpg);">
                 <div class="container-fluid project-overlay">
                     <p class="p-4 m-0"></p>
                     <div class="container-fluid" style="font-size: 12pt;">
@@ -290,10 +290,15 @@
 
     <script type="text/javascript">
 
+        $.get('https://cors-anywhere.herokuapp.com/https://weather-forecast-canada.herokuapp.com/ping/', function(data) {
+            console.log(data)
+        })
+
+        $.get('https://cors-anywhere.herokuapp.com/https://super-hero-api.herokuapp.com/', function(data) {
+            console.log(data)
+        })
+
         $(document).ready(function() {
-            
-            // $.get("https://thingproxy.freeboard.io/fetch/https://weather-forecast-canada.herokuapp.com/ping/");
-            // $.get("https://thingproxy.freeboard.io/fetch/https://super-hero-api.herokuapp.com/");
 
             function resize() {
                 if(window.innerWidth <= 990 ) {
