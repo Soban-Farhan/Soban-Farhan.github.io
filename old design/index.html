@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peronal Portfolio Website">
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Soban Farhan</title>
+</head>
+
+<body>
+    <div class="container-fluid" id='main-content' style="height: 100vh;">
+        <nav>
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn bg-dark">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a target="_blank" href="./Soban Farhan - Resume.pdf">Resume</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li id="externalLinks"></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+            <div class="row">
+                <div class="col-md-11 col-lg-11 offset-lg-1">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body" style="color: white; font-weight: 550;">
+                            <h5 class="card-title m-0" style="font-size: 1.5rem;">HELLO, THERE.</h5>
+                            <p class="card-text m-0" style="font-size: 3.5rem; line-height: 125%;">I'm Soban Farhan.</p>
+                            <p class="card-text" id="rotateText" style="font-weight: 300; font-size: larger;"><span style="color: #f15959;"></p>
+                            <a href="#About"><button id="moreBtn" class="btn btn-lg bg-transparent"><span class="p-3"> MORE ABOUT ME &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
+                            <p class="p-2" style="font-size: 25px; color: white;"> <a target="_blank" href="https://github.com/Soban-Farhan"><i class="fa fa-github"></i></a> &nbsp; <a target="_blank" href="https://www.linkedin.com/in/sobanfarhan/"><i class="fa fa-linkedin-square"></i></a> &nbsp; <a target="_blank" href="https://www.instagram.com/soban.farhan/"><i class="fa fa-instagram"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="About" class="container-fluid bg-light">
+        <span class="p-1"></span>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body" style="color: black; font-weight: 550;">
+                            <h5 class="card-title m-0" style="font-size: 1.5rem;">WHO AM I ?</h5>
+                            <hr style="height: 1px; color: #fff; background-color: black; border: none; margin-top: 5px; margin-bottom: 1px;"/>
+                            <p class="p-2"></p>
+                            <div class="row">
+                                <div class="col-sm-4 text-center">
+                                    <p class="p-1"></p>
+                                    <img src="./images/my-face-min.jpg" alt="Me" style="width: 80%; border-radius: 50%;">
+                                    <p class="p-1"></p>
+                                </div>
+                                <div class="col-lg-8 text-left">
+                                    <p class="p-1"></p>
+                                    <p style="font-weight: 500; font-family: 'Montserrat';">
+                                        I'm a passionate Software Developer that enjoys making people's lives easier. 
+                                        I am a recent Computer Programming Analyst graduate from Durham College. 
+                                        As a developer, I implement software and machine learning-based solutions for clients' businesses. 
+                                        I constantly strive for growth, success, and experiences that come my way as a software developer.
+                                    </p>
+                                    <p class="p-1"></p>
+                                </div>
+                                <div class="col-lg-12 text-left">
+                                    <p style="font-family: 'Montserrat'; color: black;">
+                                        <h5 class="card-title m-0" style="font-size: 1.5rem;">TECHNICAL SKILLS</h5>
+                                        <p class="m-2"></p>
+                                        <ul>
+                                            <li style="font-weight: 380;">
+                                                <b>Languages:</b> &nbsp; C#, ASP.Net, Python, C, C++, Java, JavaScript, jQuery
+                                            </li>
+                                            <li style="font-weight: 380;">
+                                                <b>Databases:</b> &nbsp; MS SQL Server, MySQL, PostgreSQL <br/>
+                                            </li>
+                                            <li style="font-weight: 380;">
+                                                <b>Frameworks:</b> &nbsp; .Net, Django, Laravel, Bootstrap, Node js, React js
+                                            </li>
+                                            <li style="font-weight: 380;">
+                                                <b>Methodologies:</b> &nbsp; Agile, Waterfall, Scrum, Iterative, Prototype, SDLC
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="col-lg p-2 text-center">
+                                    <a href="#Projects"><button id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> MY PROJECTS &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
+                                </div>
+                                <div class="col-lg p-2 text-center">
+                                    <a target="_blank" href="./Soban Farhan - Resume.pdf"><button id="moreBtn" style="border-color: #313131; width: 216.5px;" class="btn btn-lg bg-dark"><span class="p-3"> MY RESUME &nbsp;<i class="fas fa-angle-right"></i> </span></button></a>  
+                                </div>
+                                <div class="col-lg p-2 text-center">
+                                    <a href="#Contact"><button id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> CONTACT ME &nbsp;<i class="fas fa-angle-down"></i> </span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="p-1"></span>
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body" style="color: black; font-weight: 550;">
+                            <h5 class="card-title m-0" style="font-size: 1.5rem;">MY PROJECTS</h5>
+                            <hr style="height: 1px; color: #fff; background-color: black; border: none; margin-top: 5px; margin-bottom: 1px;"/>
+                        </div>
+                    </div>
+                    <p class="p-1"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light" id="Projects">
+        <div class="row">
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/weather-forecast.jpg);">
+                <div class="container-fluid project-overlay">
+                    <p class="p-4 m-0"></p>
+                    <div class="container-fluid" style="font-size: 12pt;">
+                        A personal web project which offers weather forecast for the given location. 
+                        The website is built using Python, HTML, JavaScript, jQuery, Django, and Bootstrap framework.
+                        <br/><br/>
+                        <b>Note:</b> This App is just a personal project, to learn and get better understand of Software Developement.
+                    </div>
+                    <br/><br/>
+                    <p class="p-2 m-0"></p>
+                    <div class="row">
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://github.com/Soban-Farhan/WeatherForecast" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Github&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://weather-forecast-canada.herokuapp.com/" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Website&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                            <p class="p-1 m-1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/SuperHeroAPI.jpg);">
+                <div class="container-fluid project-overlay">
+                    <p class="p-4 m-0"></p>
+                    <div class="container-fluid" style="font-size: 12pt;">
+                        A personal web project which offers comic characters from Marvel, DC, and others with character information, and stats. 
+                        Built using Node.js, React, Bootstrap and implements an API provided by superheroapi.com.
+                        <br/><br/>
+                        <b>Note:</b> This App is just a personal project, to learn and get better understand of Software Developement.
+                    </div>
+                    <br/><br/>
+                    <p class="p-2 m-0"></p>
+                    <div class="row">
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://github.com/Soban-Farhan/SuperheroApi" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Github&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 text-center">
+                            <a href="https://super-hero-api.herokuapp.com/" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Website&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                            <p class="p-1 m-1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 project-card" style="background-image: url(./images/KingWilliamHotel.jpg);">
+                <div class="container-fluid project-overlay">
+                    <p class="p-4 m-0"></p>
+                    <div class="container-fluid" style="font-size: 12pt;">
+                        The application offers a database management system for a hotel. 
+                        The information manged includes reservation, room maintenance, room availability, etc.
+                        The application was built using C# ASP.Net, Entity Framework and MySQL Server.
+                        <br/><br/>
+                        <b>Note:</b> This App is just a personal project, to learn and get better understand of Software Developement.
+                    </div>
+                    <br/><br/>
+                    <p class="p-2 m-0"></p>
+                    <div class="row">
+                        <div class="col-12 p-0 text-center">
+                            <a href="https://github.com/Soban-Farhan/KingWilliamHotel" target="_blank">
+                                <button class="btn btn-small bg-transparent">
+                                    <span style="font-size: 12pt;"> Github&nbsp; <i class="fas fa-angle-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Contact" class="container-fluid">
+        <p class="p-4"></p>
+        <div class="container">
+            <form action="#" action="POST"></form>
+            <div class="card border-0" style="background-color: white;">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <p class="p-3"></p>
+                            <div class="container-fluid">
+                                <h5 class="card-title m-0 text-center" style="font-size: 1.5rem;">CONTACT ME</h5>
+                                <hr style="height: 1px; color: #fff; background-color: black; border: none; margin-top: 5px; margin-bottom: 1px;"/>
+                                <p class="p-3"></p>
+                                <form id="contactForm" >
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" name="Name" class="form-control inputStyle" placeholder="Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="Email" name="Email" class="form-control inputStyle" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p class="p-1"></p>
+                                            <div class="form-group">
+                                                <input name="Subject" class="form-control inputStyle" placeholder="Subject" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <textarea name="Message" class="form-control inputStyle" style="height: 100px;" placeholder="Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 text-right">
+                                            <button type="submit" id="moreBtn" style="color: black;" class="btn btn-lg bg-transparent"><span class="p-3"> SUBMIT &nbsp;<i class="fas fa-angle-right"></i> </span></button>
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <label id="messageReturn" >
+                                                
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        <p class="p-3"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="p-5"></p>
+    </div>
+    <div class="container-fluid text-center">
+        <p class="p-5">
+            &copy; Copyright <script type="text/javascript"> document.write( new Date().getFullYear() ); </script> <b> Soban Farhan</b>. All Rights Reserved
+        </p>
+    </div>
+    <div style="position: fixed; bottom: 0%; right: 0;">
+        <a href="#main-content"><button id="scrollUpBtn" style="color: black;" class="btn btn-lg bg-light"><span class="p-1"><i class="fas fa-angle-up"></i></span></button></a>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        $.get('https://cors-anywhere.herokuapp.com/https://weather-forecast-canada.herokuapp.com/ping/', function(data) {
+            console.log(data)
+        })
+
+        $.get('https://cors-anywhere.herokuapp.com/https://super-hero-api.herokuapp.com/', function(data) {
+            console.log(data)
+        })
+
+        $(document).ready(function() {
+
+            function resize() {
+                if(window.innerWidth <= 990 ) {
+                    $('#rotateText').text('')
+                    $('#externalLinks').text('')
+                    if( $('#rotateText').text().length == 0 ) {
+                        $('#rotateText').append('<span style="color: #f15959;">Full Stack</span> Developer<br/><span style="color: #f15959;">Software</span> Developer<br/><span style="color: #f15959;">API</span> Developer')
+                        $('#externalLinks').append('<a target="_blank" href="https://github.com/Soban-Farhan"><i style="font-size: 25px;" class="fa fa-github"></i></a> <br/>'
+                                                    + '<a target="_blank" href="https://www.linkedin.com/in/sobanfarhan/"><i style="font-size: 25px;" class="fa fa-linkedin-square"></i></a> <br/>'
+                                                    + '<a target="_blank" href="https://www.instagram.com/soban.farhan/"><i style="font-size: 25px;" class="fa fa-instagram"></i></a>')
+                        
+                    }
+                } else {
+                    $('#rotateText').text('')
+                    $('#externalLinks').text('')
+                    if( $('#rotateText').text().length == 0 ) {
+                        $('#rotateText').append('<span style="color: #f15959;">Full Stack</span> Developer &nbsp; | &nbsp; <span style="color: #f15959;">Software</span> Developer &nbsp; | &nbsp; <span style="color: #f15959;">API</span> Developer')
+                        $('#externalLinks').text('')
+                    }
+                }
+
+                if ( $(window).scrollTop() > 50 ) {
+                    $('#scrollUpBtn').css('opacity','1')
+                } else {
+                    $('#scrollUpBtn').css('opacity','0')
+                }
+            }
+            resize();
+
+            $(window).on('resize', function() {
+                resize();
+            });
+
+            $(window).on('scroll', function() {
+                resize();
+            });
+
+            $('#contactForm').on('submit', function(e) {
+                
+                $('#messageReturn').text('')
+
+                $.ajax({
+                    type: "POST",
+                    url:"contactForm.php",
+                    data: {
+                        name: $('input[name="Name"]').val(),
+                        email: $('input[name="Email"]').val(),
+                        subject: $('input[name="Subject"]').val(),
+                        message: $('textarea[name="Message"]').val()
+                    },
+                    success: function(result, status, xhr)
+                    {
+                        $('#messageReturn').append(result)
+                        $("#contactForm :input").prop("disabled", true);
+                        $("#contactForm :textarea").prop("disabled", true);
+                        $("#contactForm :button").prop("disabled", true);
+                    }
+                })
+                return e.preventDefault()
+            });
+
+            
+            // Source: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                });
+                } // End if
+            });
+        });
+
+    </script>
+
+</body>
+</html>

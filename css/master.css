@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;500;800&display=swap');
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #8b9bcb;
+    opacity: 0;
+    border-radius: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-content {
+    height: 100vh;
+    background: url(../images/tester-min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #202020;
+    transition: .4s;
+}
+
+.projectImage {
+    /* background: url(../images/tester.png); */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.v-center {
+    margin: 0; 
+    position: relative; 
+    top: 50%; left: 50%; 
+    -ms-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+}
+
+.overlay-fade {
+    height: 101%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(32,32,32,0) 80%, rgba(32,32,32,1) 98%);
+    transition: .4s;
+}
+
+#shifter-text {
+    background-color: #202020;
+    color: white;
+    transition: .4s;
+}
+
+#theme-switch {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+#links {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.name {
+    color: #8b9bcb;
+    font-weight: bold;
+}
+
+.shifter-color {
+    color: white;
+    transition: .5s;
+}
+
+.custom-border {
+    border: 4px solid white;
+    border-image: url(../images/Capture.JPG) 30 stretch;
+}
+
+.btn-lg, .btn-md {
+    border:  3px solid white !important;
+    border-image: url(../images/Capture.JPG) 30 stretch !important;
+    color: white;
+    transition: .3s;
+}
+
+#myPicture {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.font-karla {
+    font-family: 'Karla';
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 48px;
+}
+
+.font-karla-normal {
+    font-family: 'Karla';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.font-karla-heavy {
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 76px;
+}
+
+@media screen and (max-width: 990px) { 
+    .font-karla {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .font-karla-heavy {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .font-karla-normal {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #myPicture {
+        width: 50%;
+    }
+
+    .projectImage {
+        height: 250px;
+    }
+
+}
