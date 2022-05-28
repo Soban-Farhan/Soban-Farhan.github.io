@@ -1,1 +1,9 @@
-sobanfarhan.com
+sobanfarhan.com     3600    IN A     185.199.108.153
+sobanfarhan.com     3600    IN A     185.199.109.153
+sobanfarhan.com     3600    IN A     185.199.110.153
+sobanfarhan.com     3600    IN A     185.199.111.153
+
+sobanfarhan.com     3600    IN AAAA     2606:50c0:8000::153
+sobanfarhan.com     3600    IN AAAA     2606:50c0:8001::153
+sobanfarhan.com     3600    IN AAAA     2606:50c0:8002::153
+sobanfarhan.com     3600    IN AAAA     2606:50c0:8003::153
