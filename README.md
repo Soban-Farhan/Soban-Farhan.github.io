@@ -1,2 +1,2 @@
 # Personal-Website
-A private repository create to keep track of my personal website
+A public repository created to keep track of my personal website and deploy using Github pages.
