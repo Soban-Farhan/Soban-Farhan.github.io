@@ -85,6 +85,11 @@ a {
     font-weight: bold;
 }
 
+.name-header {
+    font-size: 95px;
+    line-height: 80px;
+}
+
 .shifter-color {
     color: white;
     transition: .5s;
